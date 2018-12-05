@@ -10,10 +10,13 @@
     "help": "mdx-deck"
   },
   "keywords": [],
-  "author": "Brent Jackson",
+  "author": "Sasha Illarionov",
   "license": "MIT",
   "devDependencies": {
     "mdx-deck": "^1.6.7"
   },
-  "name": "asean"
+  "name": "asean",
+  "dependencies": {
+    "file-loader": "^2.0.0"
+  }
 }

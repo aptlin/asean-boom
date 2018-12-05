@@ -1,23 +1,179 @@
-import { Head } from 'mdx-deck'
+import { Title, Source, Container, Box } from "./components.js";
+import { Head, Image } from "mdx-deck";
 
-export { default as theme } from './theme'
+export { default as theme } from "./theme";
 
 <Head>
-  <title>Presentation Title</title>
+  <title>ASEAN: 🔥 🌊 🔥 </title>
 </Head>
 
-# Hello
+<Image src="https://media.giphy.com/media/74YUqxXmX9vHO/giphy.gif">
+  <Title>ASEAN: 🔥 Boom, 🌊 Bust, 💥 Boom</Title>
+</Image>
 
 ---
 
-## Edit this file
-
-To create your presentation
-
-```notes
-- Create speaker notes in fenced code blocks
-```
+<Image src={require("file-loader!./images/big-map.png")} size="50%" />
 
 ---
 
-<https://github.com/jxnblk/mdx-deck>
+<Image src={require("file-loader!./images/map.jpg")} size="contain" />
+
+---
+
+<Image src={require("file-loader!./images/gdp-timeline.png")} size="contain">
+  <Source>ASEAN Secretariat, 2017</Source>
+</Image>
+
+---
+
+<Image src={require("file-loader!./images/market.jpg")} size="contain" />
+
+---
+
+<Image src={require("file-loader!./images/gdps.jpg")} size="contain" />
+
+---
+
+<Image
+  src={require("file-loader!./images/consuming-households.svg")}
+  size="50%"
+/>
+
+---
+
+<Image
+  src={require("file-loader!./images/socioeconomic-status.png")}
+  size="contain"
+/>
+
+---
+
+<Image src={require("file-loader!./images/fdi.png")} size="contain" />
+
+---
+
+<iframe
+  src="https://data.worldbank.org/share/widget?end=2017&indicators=BX.KLT.DINV.CD.WD&locations=TH-SG-BN-MM-ID-PH-KH-VN-MY&start=1970&type=points&view=chart&year=2017"
+  width="900"
+  height="600"
+  frameBorder="0"
+  scrolling="no"
+/>
+
+---
+
+<Image
+  src={require("file-loader!./images/asean-forex-reserves.png")}
+  size="contain"
+/>
+
+---
+
+<Image
+  src={require("file-loader!./images/asean-net-current-accounts.png")}
+  size="contain"
+/>
+
+---
+
+<Image src={require("file-loader!./images/poverty-rate.png")} size="contain">
+  <Source>ASEAN Secretariat, 2017</Source>
+</Image>
+
+---
+
+<Image
+  src={require("file-loader!./images/stratified-poverty-rate.png")}
+  size="contain"
+>
+  <Source>ASEAN Secretariat, 2017</Source>
+</Image>
+
+---
+
+<Image src={require("file-loader!./images/ftas.jpg")} size="contain" />
+
+---
+
+<Image src={require("file-loader!./images/wages.png")} size="70%">
+  <Source>Dezan Shira & Associates, ASEAN Briefing, Issue 8, 2017</Source>
+</Image>
+
+---
+
+<Image src={require("file-loader!./images/fdi-timeline.png")} size="contain" />
+
+---
+
+<Image src={require("file-loader!./images/fdi-by-market.png")} size="contain" />
+
+---
+
+<Image
+  src={require("file-loader!./images/fdi-by-country.png")}
+  size="contain"
+/>
+
+---
+
+<Image
+  src={require("file-loader!./images/exports-by-country.png")}
+  size="contain"
+/>
+
+---
+
+<Image src={require("file-loader!./images/export.jpg")} size="contain" />
+
+---
+
+<Image src={require("file-loader!./images/cities.png")} size="contain" />
+
+---
+
+<Image
+  src={require("file-loader!./images/internet-economy.png")}
+  size="contain"
+/>
+
+---
+
+<Image
+  src={require("file-loader!./images/urban-challenges.png")}
+  size="contain"
+/>
+
+---
+
+<Image src={require("file-loader!./images/smart-cities.png")} size="contain" />
+
+---
+
+<Image src={require("file-loader!./images/challenges.png")} size="contain" />
+
+---
+
+<Image
+  src={require("file-loader!./images/internet-affordability.png")}
+  size="contain"
+/>
+
+---
+
+<Image
+  src={require("file-loader!./images/talent-employment.png")}
+  size="contain"
+/>
+
+---
+
+<Image src={require("file-loader!./images/trust.png")} size="contain" />
+
+---
+
+<Image src={require("file-loader!./images/logistics.png")} size="contain" />
+
+---
+
+<Image src={require("file-loader!./images/payments.png")} size="contain" />
